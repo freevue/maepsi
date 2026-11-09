@@ -1,0 +1,20 @@
+{
+  "name": "bab-lint",
+  "interface": {
+    "displayName": "bab-lint"
+  },
+  "plugins": [
+    {
+      "name": "bab-lint",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bab-lint"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

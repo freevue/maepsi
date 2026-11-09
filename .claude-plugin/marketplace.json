@@ -1,0 +1,16 @@
+{
+  "name": "bab-lint",
+  "owner": {
+    "name": "juno"
+  },
+  "metadata": {
+    "description": "프로젝트의 디자인 규칙을 기준으로 UI를 검사하는 bab-lint 플러그인"
+  },
+  "plugins": [
+    {
+      "name": "bab-lint",
+      "source": "./plugins/bab-lint",
+      "description": "채택된 디자인 규칙과 UI 구현을 대조하고 검증 범위를 보고합니다"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "bab-lint",
+  "version": "0.1.0",
+  "description": "프로젝트가 채택한 디자인 규칙을 기준으로 UI 구현을 검사하는 에이전트 스킬",
+  "author": {
+    "name": "juno"
+  },
+  "license": "MIT",
+  "keywords": ["design", "ui", "lint", "accessibility"]
+}
