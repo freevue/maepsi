@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "bab-lint",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "사용자의 디자인을 프로젝트 문서로 정리하고 원본·구현과의 일치를 검사하는 에이전트 스킬",
   "author": {
     "name": "juno"
