@@ -1,4 +1,4 @@
-name: bab-lint 테스트
+name: 맵시 테스트
 
 on:
   pull_request:

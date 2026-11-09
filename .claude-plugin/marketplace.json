@@ -1,15 +1,15 @@
 {
-  "name": "bab-lint",
+  "name": "maepsi",
   "owner": {
     "name": "juno"
   },
   "metadata": {
-    "description": "사용자의 디자인을 문서화하고 원본·구현과의 일치를 검사하는 bab-lint 플러그인"
+    "description": "사용자의 디자인을 문서화하고 원본·구현과의 일치를 검사하는 맵시 플러그인"
   },
   "plugins": [
     {
-      "name": "bab-lint",
-      "source": "./plugins/bab-lint",
+      "name": "maepsi",
+      "source": "./plugins/maepsi",
       "description": "프로젝트 디자인 문서를 작성하고 디자인 원본·UI 구현과 대조합니다"
     }
   ]

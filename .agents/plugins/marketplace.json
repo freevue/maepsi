@@ -1,14 +1,14 @@
 {
-  "name": "bab-lint",
+  "name": "maepsi",
   "interface": {
-    "displayName": "bab-lint"
+    "displayName": "맵시"
   },
   "plugins": [
     {
-      "name": "bab-lint",
+      "name": "maepsi",
       "source": {
         "source": "local",
-        "path": "./plugins/bab-lint"
+        "path": "./plugins/maepsi"
       },
       "policy": {
         "installation": "AVAILABLE",
