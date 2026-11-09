@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict'
-import { readFileSync, realpathSync } from 'node:fs'
+import { existsSync, readFileSync, realpathSync } from 'node:fs'
 import { join } from 'node:path'
 import { test } from 'node:test'
 import { fileURLToPath } from 'node:url'
@@ -25,4 +25,6 @@ test('두 마켓플레이스가 같은 bab-lint 플러그인을 배포한다', (
   const codex = readJson(join(codexRoot, 'plugin.json'))
   assert.deepEqual([claude.name, claude.version], [codex.name, codex.version])
   assert.equal(claude.name, 'bab-lint')
+  assert.ok(existsSync(join(claudeRoot, 'skills/document/SKILL.md')))
+  assert.ok(existsSync(join(claudeRoot, 'skills/lint/SKILL.md')))
 })

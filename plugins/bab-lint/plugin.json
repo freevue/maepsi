@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "bab-lint",
-  "version": "0.1.0",
-  "description": "프로젝트가 채택한 디자인 규칙을 기준으로 UI 구현을 검사하는 에이전트 스킬",
+  "version": "0.2.0",
+  "description": "사용자의 디자인을 프로젝트 문서로 정리하고 원본·구현과의 일치를 검사하는 에이전트 스킬",
   "author": {
     "name": "juno"
   },
